@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Powneys-Joinery/static/css/main.d7b0bad6.css",
-    "main.js": "/Powneys-Joinery/static/js/main.ff8df049.js",
+    "main.js": "/Powneys-Joinery/static/js/main.210acd82.js",
     "static/media/post1.jpg": "/Powneys-Joinery/static/media/post1.26c5404d353aea3ef2aa.jpg",
     "static/media/post2.jpg": "/Powneys-Joinery/static/media/post2.cdc7f657b8169f884a32.jpg",
     "static/media/image1.jpeg": "/Powneys-Joinery/static/media/image1.a7c2cdbcf141a147c2e0.jpeg",
@@ -12,10 +12,10 @@
     "static/media/post5.jpg": "/Powneys-Joinery/static/media/post5.bee63ef81221608436a1.jpg",
     "index.html": "/Powneys-Joinery/index.html",
     "main.d7b0bad6.css.map": "/Powneys-Joinery/static/css/main.d7b0bad6.css.map",
-    "main.ff8df049.js.map": "/Powneys-Joinery/static/js/main.ff8df049.js.map"
+    "main.210acd82.js.map": "/Powneys-Joinery/static/js/main.210acd82.js.map"
   },
   "entrypoints": [
     "static/css/main.d7b0bad6.css",
-    "static/js/main.ff8df049.js"
+    "static/js/main.210acd82.js"
   ]
 }
