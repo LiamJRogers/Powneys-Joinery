@@ -1,0 +1,40 @@
+# macOS system files
+.DS_Store
+
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# VSCode settings
+.vscode/
+
+# Dependency directories
+bower_components/
+
+# Production files
+*.tgz
+
+# IDE files
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Misc
+*.log
+*.tmp
+*.swp
+*.swo
