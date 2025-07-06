@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://liamjrogers.github.io/Powneys-Joinery",
+  "homepage": "https://powneysjoinery.com",
   "dependencies": {
     "axios": "^1.8.4",
     "react": "^19.0.0",
