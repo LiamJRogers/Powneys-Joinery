@@ -18,7 +18,7 @@ function GallerySection({ galleryPosts }) {
               href={post.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="animate-on-scroll bg-white border border-gray-200 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer block group"
+              className="animate-on-scroll mobile-animate bg-white border border-gray-200 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer block group"
             >
               <div className="relative">
                 <img

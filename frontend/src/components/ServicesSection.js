@@ -12,7 +12,7 @@ function ServicesSection({ services }) {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <div key={index} className="animate-on-scroll bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-3 border border-cream">
+            <div key={index} className="animate-on-scroll mobile-animate bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-3 border border-cream">
               <div className="flex justify-center mb-6">{service.icon}</div>
               <h3 className="text-xl font-bold text-charcoal mb-4 text-center">{service.title}</h3>
               <p className="text-charcoal/70 text-center leading-relaxed">{service.description}</p>
