@@ -6,7 +6,7 @@ function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <img src={process.env.PUBLIC_URL + "/logo.png"} alt="Powneys Carpentry Services" className="h-20 w-auto mb-4 bg-cream rounded p-2" />
+            <img src={process.env.PUBLIC_URL + "/logo.avif"} alt="Powneys Carpentry Services" className="h-20 w-auto mb-4 bg-cream rounded p-2" />
             <p className="text-cream/80 mb-4">
               Professional carpentry and joinery services serving Liverpool, Merseyside, and surrounding areas since 2024.
             </p>
@@ -52,9 +52,6 @@ function Footer() {
               <li className="break-all whitespace-normal">
                 Email: <a href="mailto:powneys.joinery@gmail.com" className="hover:text-cream">powneys.joinery@gmail.com</a>
               </li>              
-              <li>Mon-Fri: 9:00 AM - 5:00 PM</li>
-              <li>Saturday: 10:00 AM - 4:00 PM</li>
-              <li>Sunday: Closed</li>
             </ul>
           </div>
         </div>

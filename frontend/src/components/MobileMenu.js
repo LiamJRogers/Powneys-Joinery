@@ -20,7 +20,7 @@ function MobileMenu({ isOpen, setIsMenuOpen, activeSection, scrollToSection }) {
       >
         <div className="flex flex-col h-full">
           <div className="flex items-center justify-between p-6 border-b border-charcoal/10 bg-cream">
-            <img src={process.env.PUBLIC_URL + "/logo.png"} alt="Powneys Carpentry Services" className="h-12 w-auto" />
+            <img src={process.env.PUBLIC_URL + "/logo.avif"} alt="Powneys Carpentry Services" className="h-12 w-auto" />
             <button
               onClick={() => setIsMenuOpen(false)}
               className="text-charcoal p-2 hover:text-charcoal/60 transition-all duration-300 ease-out"

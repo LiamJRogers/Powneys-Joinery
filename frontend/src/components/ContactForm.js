@@ -8,8 +8,9 @@ function ContactForm({ formSubmitted, handleFormSubmit }) {
     lastName: "",
     email: "",
     phone: "",
+    address: "",
     service: "",
-    message: "",
+    projectDetails: "",
   });
   const [errors, setErrors] = useState({});
 
@@ -31,8 +32,9 @@ function ContactForm({ formSubmitted, handleFormSubmit }) {
         lastName: "",
         email: "",
         phone: "",
+        address: "",
         service: "",
-        message: "",
+        projectDetails: "",
       });
       setErrors({});
     } finally {
@@ -104,7 +106,7 @@ function ContactForm({ formSubmitted, handleFormSubmit }) {
           </div>
           <div>
             <label htmlFor="phone" className="block text-sm font-medium text-charcoal mb-2">
-              Phone Number
+              Phone Number *
             </label>
             <input
               type="tel"
@@ -116,6 +118,21 @@ function ContactForm({ formSubmitted, handleFormSubmit }) {
               placeholder="Your phone number"
             />
             {errors.phone && <p className="text-red-500 text-xs mt-1">{errors.phone}</p>}
+          </div>
+          <div>
+            <label htmlFor="address" className="block text-sm font-medium text-charcoal mb-2">
+              Address *
+            </label>
+            <input
+              type="text"
+              id="address"
+              name="address"
+              value={values.address || ""}
+              onChange={handleChange}
+              className="w-full px-4 py-3 border border-charcoal/20 rounded-lg focus:ring-2 focus:ring-gold focus:border-gold transition-all duration-300"
+              placeholder="Your address"
+            />
+            {errors.address && <p className="text-red-500 text-xs mt-1">{errors.address}</p>}
           </div>
           <div>
             <label htmlFor="service" className="block text-sm font-medium text-charcoal mb-2">
@@ -139,19 +156,19 @@ function ContactForm({ formSubmitted, handleFormSubmit }) {
             {errors.service && <p className="text-red-500 text-xs mt-1">{errors.service}</p>}
           </div>
           <div>
-            <label htmlFor="message" className="block text-sm font-medium text-charcoal mb-2">
-              Project Details *
+            <label htmlFor="projectDetails" className="block text-sm font-medium text-charcoal mb-2">
+              Tell Us About Your Project *
             </label>
             <textarea
-              id="message"
-              name="message"
+              id="projectDetails"
+              name="projectDetails"
               rows={4}
-              value={values.message}
+              value={values.projectDetails}
               onChange={handleChange}
               className="w-full px-4 py-3 border border-charcoal/20 rounded-lg focus:ring-2 focus:ring-gold focus:border-gold transition-all duration-300 resize-vertical"
               placeholder="Please describe your project in detail..."
             ></textarea>
-            {errors.message && <p className="text-red-500 text-xs mt-1">{errors.message}</p>}
+            {errors.projectDetails && <p className="text-red-500 text-xs mt-1">{errors.projectDetails}</p>}
           </div>
           <button
             type="submit"

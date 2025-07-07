@@ -57,20 +57,9 @@ function ContactInfo() {
         </div>
       </div>
       <div className="mt-8 bg-cream/50 p-6 rounded-lg">
-        <h4 className="font-semibold text-charcoal mb-3">Working Hours</h4>
-        <div className="space-y-2 text-charcoal/80">
-          <div className="flex justify-between">
-            <span>Monday - Friday</span>
-            <span>9:00 AM - 5:00 PM</span>
-          </div>
-          <div className="flex justify-between">
-            <span>Saturday</span>
-            <span>10:00 AM - 4:00 PM</span>
-          </div>
-          <div className="flex justify-between">
-            <span>Sunday</span>
-            <span>Closed</span>
-          </div>
+        <h4 className="font-semibold text-charcoal mb-3">We're Ready to Help</h4>
+        <div className="text-charcoal/80">
+          Have a question? Get in touch and we’ll get back to you as soon as possible.
         </div>
       </div>
     </div>

@@ -1,9 +1,9 @@
-import post1 from '../assets/post1.jpg';
-import post2 from '../assets/post2.jpg';
-import post3 from '../assets/post3.jpg';
-import post4 from '../assets/post4.jpg';
-import post5 from '../assets/post5.jpg';
-import post6 from '../assets/post6.jpg';
+import post1 from '../assets/post1.avif';
+import post2 from '../assets/post2.avif';
+import post3 from '../assets/post3.avif';
+import post4 from '../assets/post4.avif';
+import post5 from '../assets/post5.avif';
+import post6 from '../assets/post6.avif';
 
 
 export const galleryPosts = [

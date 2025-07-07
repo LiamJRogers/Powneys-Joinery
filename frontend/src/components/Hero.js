@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "../assets/image1.jpeg";
+import heroImage from "../assets/image1.avif";
 
 function Hero({ scrollToSection }) {
   return (
@@ -7,7 +7,7 @@ function Hero({ scrollToSection }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="animate-on-scroll">
-            <img src={process.env.PUBLIC_URL + "/logo.png"} alt="Powneys Carpentry Services" className="w-48 h-48 mx-auto lg:mx-0 mb-8" />
+            <img src={process.env.PUBLIC_URL + "/logo.avif"} alt="Powneys Carpentry Services" className="w-48 h-48 mx-auto lg:mx-0 mb-8" />
             <h1 className="text-4xl lg:text-6xl font-bold text-charcoal mb-6">
               Professional Carpentry Services in
               <span className="text-gold"> Merseyside</span>

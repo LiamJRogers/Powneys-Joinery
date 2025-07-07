@@ -15,7 +15,7 @@ function Nav({ isMenuOpen, setIsMenuOpen, activeSection, scrollToSection }) {
               aria-label="Go to home"
               type="button"
             >
-              <img src={process.env.PUBLIC_URL + "/logo.png"} alt="Powneys Carpentry Services" className="h-10 w-auto" />
+              <img src={process.env.PUBLIC_URL + "/logo.avif"} alt="Powneys Carpentry Services" className="h-10 w-auto" />
             </button>
           </div>
           <div className="hidden md:block">

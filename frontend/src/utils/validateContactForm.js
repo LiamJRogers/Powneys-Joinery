@@ -22,12 +22,20 @@ export default function validateContactForm(values) {
     }
   }
 
+  if (!values.phone) {
+    errors.phone = "Phone number is required";
+  }
+
+  if (!values.address) {
+    errors.address = "Address is required";
+  }
+
   if (!values.service) {
     errors.service = "Please select a service";
   }
 
-  if (!values.message || values.message.trim().length < 10) {
-    errors.message = "Please provide more details (at least 10 characters)";
+  if (!values.projectDetails || values.projectDetails.trim().length < 10) {
+    errors.projectDetails = "Please provide more details (at least 10 characters)";
   }
 
   return errors;

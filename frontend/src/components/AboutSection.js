@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImage from "../assets/image2.jpeg"; 
+import aboutImage from "../assets/image2.avif"; 
 
 function AboutSection() {
   return (
