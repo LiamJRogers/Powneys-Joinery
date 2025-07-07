@@ -11,6 +11,7 @@ export default function useAnimateOnScroll() {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add('animate-fade-in-up');
+          entry.target.classList.remove('animate-on-scroll');
         }
       });
     }, observerOptions);
